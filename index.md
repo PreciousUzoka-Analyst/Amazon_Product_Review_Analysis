@@ -51,7 +51,7 @@ Analyzed a dataset of 1,465 Amazon product reviews to answer 14 questions and cr
   - Average (3.0–3.9): 335
   - Good (4.0–4.4): 911
   - Excellent (4.5–5.0): 96
-  - Majority in Average and Good, few in Excellent. ![Q8](Q8_pie.png)
+  - Majority in Average and Good, few in Excellent. ![Q8](Q8_Piechart.png)
 - **Q9: Revenue by Category**:
   - Electronics: ₹91,324,237,562
   - Computers & Accessories: ₹11,660,596,077
@@ -73,13 +73,13 @@ Analyzed a dataset of 1,465 Amazon product reviews to answer 14 questions and cr
   - AmazonBasics Flexible Premium HDMI Cable: 1,878,681
   - boAt Bassheads 100 in Ear Wired Earphones-B07GQ: 1,491,223
   - boAt Bassheads 100 in Ear Wired Earphones: 1,491,223
-  - Used `short_product_name`, edited duplicates, ties valid due to unique `product_id`. ![Q14](Q14_table.png)
+  - Used `short_product_name`, edited duplicates, ties valid due to unique `product_id`. ![Q14](Q14_table.emf)
 
 ## Insights
 -	High discounts (Q1, Q13) suggest aggressive promotions. Weak correlation (Q11) indicates discounts may slightly lower ratings. Tied `combined_score` in Q14 reflects similar product performance. Used `short_category` and fixed `rating` = 0, `discount_percentage` = 0 for clarity.
 
 ## Visuals
-- Dashboard: ![Dashboard](Amazon_dashboard.png)
+- Dashboard: ![Dashboard](Amazon dashboard.png)
 - Charts: Q2, Q3, Q4, Q5, Q6, Q8, Q9, Q10, Q14
 
 ## Conclusion
@@ -87,3 +87,5 @@ Cleaned dataset by resolving duplicates, text prices, long names, invalid rating
 
 ## Repository
 -	[Link to GitHub repository]
+## Files 
+- [Excel Datase] (Amazon_reviews.xlsx)
