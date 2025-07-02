@@ -66,20 +66,20 @@ Analyzed a dataset of 1,465 Amazon product reviews to answer 14 questions and cr
   - 308 products
 - **Q13: Highest Discount Category**:
   - Computers & Accessories: 94%
-  - Used `short_category`. Fixed 47 zero `discount_percentage` rows.
+  - Used `short_category`. Fixed 47 zero `discount_percentage` rows. ![Q13](Q13_table.png)
 - **Q14: Top 5 Products by Combined Score**:
   - Amazon Basics High-Speed HDMI Cable, 6 Feet: 1,878,681
   - Amazon Basics High-Speed HDMI Cable, 6 Feet-B014I: 1,878,681
   - AmazonBasics Flexible Premium HDMI Cable: 1,878,681
   - boAt Bassheads 100 in Ear Wired Earphones-B07GQ: 1,491,223
   - boAt Bassheads 100 in Ear Wired Earphones: 1,491,223
-  - Used `short_product_name`, edited duplicates, ties valid due to unique `product_id`. ![Q14](Q14_table.emf)
+  - Used `short_product_name`, edited duplicates, ties valid due to unique `product_id`. ![Q14](Q14_table.png)
 
 ## Insights
 -	High discounts (Q1, Q13) suggest aggressive promotions. Weak correlation (Q11) indicates discounts may slightly lower ratings. Tied `combined_score` in Q14 reflects similar product performance. Used `short_category` and fixed `rating` = 0, `discount_percentage` = 0 for clarity.
 
 ## Visuals
-- Dashboard: ![Dashboard](Amazon dashboard.png)
+- Dashboard: ![Dashboard](Amazon_dashboard.png)
 - Charts: Q2, Q3, Q4, Q5, Q6, Q8, Q9, Q10, Q14
 
 ## Conclusion
