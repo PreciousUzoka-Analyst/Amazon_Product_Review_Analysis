@@ -98,4 +98,4 @@ Cleaned dataset by resolving duplicates, text prices, long names, invalid rating
 ## Repository
 -	[Link to GitHub repository]
 ## Files 
-- [Excel Dataset](Amazon_reviews.xlsx)
+- [Excel Dataset](amazon_reviews.xlsx)
