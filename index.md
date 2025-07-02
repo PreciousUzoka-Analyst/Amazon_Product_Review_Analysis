@@ -26,23 +26,28 @@ Analyzed a dataset of 1,465 Amazon product reviews to answer 14 questions and cr
 - **Q2: Products per Category**:
   - Electronics: 490
   - Home & Kitchen: 448
-  - Used `short_category`. ![Q2](Q2_bar.png)
+  - Used `short_category`.
+    ![Q2](Q2_bar.png)
 - **Q3: Total Ratings by Category**:
   - Electronics: 14,208,441
-  - Used `short_category`. ![Q3](Q3_bar.png)
+  - Used `short_category`.
+    ![Q3](Q3_bar.png)
 - **Q4: Top-Rated Products**:
   - Syncwire LTG to USB Cable: 5.0
   - REDTECH USB-C to Lightning Cable 3.3FT: 5.0
   - Amazon Basics Wireless Mouse: 5.0
-  - Used `short_product_name`, edited duplicates for clarity, valid due to unique `product_id`. ![Q4](Q4_bar.png)
+  - Used `short_product_name`, edited duplicates for clarity, valid due to unique `product_id`.
+    ![Q4](Q4_bar.png)
 - **Q5: Largest Price Gap by Category**:
   - Electronics: Actual ₹10,418, Discounted ₹6,225
-  - Used `short_category`. ![Q5](Q5_column.png)
+  - Used `short_category`.
+    ![Q5](Q5_column.png)
 - **Q6: Top Products by Reviews**:
   - Amazon Basics High-Speed HDMI Cable, 6 Feet: 426,973
   - AmazonBasics Flexible Premium HDMI Cable: 426,973
   - Amazon Basics High-Speed HDMI Cable, 6 Feet-B014I: 426,973
-  - Used `short_product_name`, edited duplicates, valid due to unique `product_id`. ![Q6](Q6_bar.png)
+  - Used `short_product_name`, edited duplicates, valid due to unique `product_id`.
+    ![Q6](Q6_bar.png)
 - **Q7: Products with ≥50% Discount**:
   - 662 products
   - Fixed 47 zero `discount_percentage` rows.
@@ -51,14 +56,17 @@ Analyzed a dataset of 1,465 Amazon product reviews to answer 14 questions and cr
   - Average (3.0–3.9): 335
   - Good (4.0–4.4): 911
   - Excellent (4.5–5.0): 96
-  - Majority in Average and Good, few in Excellent. ![Q8](Q8_Piechart.png)
+  - Majority in Average and Good, few in Excellent.
+    ![Q8](Q8_Piechart.png)
 - **Q9: Revenue by Category**:
   - Electronics: ₹91,324,237,562
   - Computers & Accessories: ₹11,660,596,077
-  - Used `short_category`. ![Q9](Q9_bar.png)
+  - Used `short_category`.
+    ![Q9](Q9_bar.png)
 - **Q10: Products by Price Bucket**:
   - ₹500–₹2,000: 599
-  - Used `price_bucket`. ![Q10](Q10_bar.png)
+  - Used `price_bucket`.
+    ![Q10](Q10_bar.png)
 - **Q11: Correlation between Discount and Rating**:
   - Weak negative correlation (-0.16)
   - Fixed 47 zero `discount_percentage` rows.
@@ -66,14 +74,16 @@ Analyzed a dataset of 1,465 Amazon product reviews to answer 14 questions and cr
   - 308 products
 - **Q13: Highest Discount Category**:
   - Computers & Accessories: 94%
-  - Used `short_category`. Fixed 47 zero `discount_percentage` rows. ![Q13](Q13_table.png)
+  - Used `short_category`. Fixed 47 zero `discount_percentage` rows.
+    ![Q13](Q13_table.png)
 - **Q14: Top 5 Products by Combined Score**:
   - Amazon Basics High-Speed HDMI Cable, 6 Feet: 1,878,681
   - Amazon Basics High-Speed HDMI Cable, 6 Feet-B014I: 1,878,681
   - AmazonBasics Flexible Premium HDMI Cable: 1,878,681
   - boAt Bassheads 100 in Ear Wired Earphones-B07GQ: 1,491,223
   - boAt Bassheads 100 in Ear Wired Earphones: 1,491,223
-  - Used `short_product_name`, edited duplicates, ties valid due to unique `product_id`. ![Q14](Q14_table.png)
+  - Used `short_product_name`, edited duplicates, ties valid due to unique `product_id`.
+    ![Q14](Q14_table.png)
 
 ## Insights
 -	High discounts (Q1, Q13) suggest aggressive promotions. Weak correlation (Q11) indicates discounts may slightly lower ratings. Tied `combined_score` in Q14 reflects similar product performance. Used `short_category` and fixed `rating` = 0, `discount_percentage` = 0 for clarity.
