@@ -1,7 +1,10 @@
-# Case Study 1: Amazon Product Review Analysis
+# Amazon Product Review Analysis
 
 ## Introduction
-Analyzed a dataset of 1,465 Amazon product reviews to answer 14 questions and create an Excel dashboard for RetailTech Insights. The dataset includes product details (`product_id`, `product_name`, `category`, `price`, `ratings`, `reviews`). Data cleaning involved removing duplicates and cleaning symbols for accurate insights.
+
+This project analyzes 1,351 Amazon product reviews to uncover trends in pricing, ratings, and customer behavior, showcasing my data analysis skills in `Excel`.
+
+## Methodology
 
 ## Data Cleaning
 - Removed 114 duplicate `product_id` rows, reduced to 1,351 rows.
@@ -99,3 +102,5 @@ Cleaned dataset by resolving duplicates, text prices, long names, invalid rating
 -	[Link to GitHub repository]
 ## Files 
 - [Excel Dataset](amazon_reviews.xlsx)
+
+This project reflects my expertise in data cleaning, statistical analysis, and visualization, applicable to business intelligence and data analyst roles.
