@@ -11,3 +11,4 @@ Case Study 1 deliverables for RetailTech Insights:
 - `amazon_reviews.xlsx`: Cleaned dataset with pivot tables.
 - Visuals: Bar charts, pie charts, and dashboard (e.g., `Q2_bar.png`, `Amazon_dashboard.png`).
 - **Portfolio**: [Vies on GitHub Pages](https://preciousuzoka-analyst.github.io/Amazon_Product_Review_Analysis/) 
+This project demonstrates my ability to clean large datasets, perform statistical analysis, and present findings effectively.
